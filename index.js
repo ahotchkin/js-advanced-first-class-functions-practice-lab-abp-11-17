@@ -40,7 +40,7 @@ function driversByName(drivers) {
 }
 
 function test(drivers){
-  console.log(drivers.revenue)
+  console.log(driver.revenue)
 }
 //uses the reduce() method to sum the revenue of every driver and return the total
 function totalRevenue(drivers) {
