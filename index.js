@@ -48,7 +48,7 @@ function totalRevenue(drivers) {
   })
 
   function test(drivers) {
-    drivers.forEach((driver)=> console.log(driver.revenue))
+    drivers.forEach((driver)=> console.log(driver[revenue]))
   }
 
   const reduceRevenue = function(revenue) {
