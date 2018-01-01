@@ -53,7 +53,7 @@ function totalRevenue(drivers) {
     console.log('test')
     console.log(driver.revenue)
     return total + driver.revenue;
-  } 0);
+  });
 
   // console.log(reduceRevenue)
   //
