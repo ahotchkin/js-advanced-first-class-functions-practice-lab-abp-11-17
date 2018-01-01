@@ -51,12 +51,12 @@ function totalRevenue(drivers) {
     drivers.forEach((driver)=> console.log(`${driver.revenue}`))
   }
 
-  const reduceRevenue = function(revenue) {
-    console.log(drivers[revenue])
-    return drivers.revenue
-  }
-
-  return driversRevenue.reduce(reduceRevenue)
+  // const reduceRevenue = function(revenue) {
+  //   console.log(drivers[revenue])
+  //   return drivers.revenue
+  // }
+  //
+  // return driversRevenue.reduce(reduceRevenue)
 
 }
 
