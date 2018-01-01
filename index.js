@@ -49,11 +49,11 @@ function totalRevenue(drivers) {
 
 
 
-  const reduceRevenue = function(total, drivers) {
+  const reduceRevenue = driversRevenue.reduce(function(total, drivers) {
     console.log('test')
     console.log(driver.revenue)
     return total + drivers.revenue;
-  } 0;
+  } 0);
 
   console.log(reduceRevenue)
 
