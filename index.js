@@ -46,7 +46,7 @@ function test(drivers) {
 
 // function totalRevenue(drivers) {
 //   let driversRevenue = [];
-// 
+//
 //   drivers.forEach((driver)=> {
 //     driversRevenue.push(driver)
 //   })
@@ -60,7 +60,7 @@ function test(drivers) {
   //
   // return driversRevenue.reduce(reduceRevenue)
 
-}
+// }
 
 // const array1 = [1, 2, 3, 4];
 // const reducer = (accumulator, currentValue) => accumulator + currentValue;
