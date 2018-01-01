@@ -49,7 +49,7 @@ function totalRevenue(drivers) {
 
   const reduceRevenue = function(total, revenue) {
     console.log(total.revenue + drivers.revenue)
-    return total.revenue + drivers.revenue
+    return {revenue: total.revenue + drivers.revenue}
   }
 
   return driversRevenue.reduce(reduceRevenue)
