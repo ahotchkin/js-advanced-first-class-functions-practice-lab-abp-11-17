@@ -47,6 +47,9 @@ function totalRevenue(drivers) {
     driversRevenue.push(driver.revenue)
   })
 
+  function test(drivers){
+    drivers.forEach(console.log(driver.revenue)) 
+  }
   console.log(drivers.revenue)
 
 
