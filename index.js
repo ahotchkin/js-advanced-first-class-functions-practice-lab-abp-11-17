@@ -55,9 +55,9 @@ function totalRevenue(drivers) {
     return total + drivers.revenue;
   } 0);
 
-  console.log(reduceRevenue)
-
-  return driversRevenue.reduce(reduceRevenue)
+  // console.log(reduceRevenue)
+  //
+  // return driversRevenue.reduce(reduceRevenue)
 
 }
 
