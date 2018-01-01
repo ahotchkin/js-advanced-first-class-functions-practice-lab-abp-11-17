@@ -1,4 +1,8 @@
 // Code your solution in this file!
+function test(drivers) {
+  drivers.forEach((driver)=> console.log(driver.hometown))
+}
+
 function logDriverNames(drivers) {
   drivers.forEach((driver)=> console.log(driver.name))
 }
@@ -40,9 +44,7 @@ function driversByName(drivers) {
 }
 
 //uses the reduce() method to sum the revenue of every driver and return the total
-function test(drivers) {
-  drivers.forEach((driver)=> console.log(driver.hometown))
-}
+
 
 // function totalRevenue(drivers) {
 //   let driversRevenue = [];
