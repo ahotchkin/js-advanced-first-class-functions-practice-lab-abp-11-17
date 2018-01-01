@@ -48,8 +48,6 @@ function totalRevenue(drivers) {
   })
 
   let reduceRevenue = driversRevenue.reduce(function(sum, driver) {
-    console.log('test')
-    console.log(sum + driver.revenue)
     return sum + driver.revenue;
   }, 0);
 
