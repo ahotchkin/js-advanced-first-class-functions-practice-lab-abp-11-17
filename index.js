@@ -39,9 +39,6 @@ function driversByName(drivers) {
   return driversName
 }
 
-function test(drivers){
-  console.log(driver.revenue)
-}
 //uses the reduce() method to sum the revenue of every driver and return the total
 function totalRevenue(drivers) {
   let driversRevenue = [];
