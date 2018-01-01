@@ -47,9 +47,9 @@ function totalRevenue(drivers) {
     driversRevenue.push(driver.revenue)
   })
 
-  const reduceRevenue = function(total, revenue) {
-    console.log(total + drivers.revenue)
-    return total + drivers.revenue
+  const reduceRevenue = function(revenue) {
+    console.log(drivers.revenue)
+    return drivers.revenue
   }
 
   return driversRevenue.reduce(reduceRevenue)
