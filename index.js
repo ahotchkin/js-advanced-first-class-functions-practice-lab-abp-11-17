@@ -47,12 +47,10 @@ function totalRevenue(drivers) {
     driversRevenue.push(driver)
   })
 
-
-
-  let reduceRevenue = driversRevenue.reduce(function(total, driver) {
+  let reduceRevenue = driversRevenue.reduce(function(sum, driver) {
     console.log('test')
-    console.log(total + driver.revenue)
-    return total + driver.revenue;
+    console.log(sum + driver.revenue)
+    return sum + driver.revenue;
   });
 
   // console.log(reduceRevenue)
