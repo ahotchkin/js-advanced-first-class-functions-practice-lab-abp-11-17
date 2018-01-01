@@ -47,7 +47,7 @@ function totalRevenue(drivers) {
     driversRevenue.push(driver.revenue)
   })
 
-  console.log(drivers)
+  console.log(drivers.revenue)
 
 
 
