@@ -40,25 +40,25 @@ function driversByName(drivers) {
 }
 
 //uses the reduce() method to sum the revenue of every driver and return the total
-// function totalRevenue(drivers) {
-//   let driversRevenue = [];
-//
-//   drivers.forEach((driver)=> {
-//     driversRevenue.push(driver.revenue)
-//   })
-//
-//   function test(drivers){
-//     drivers.forEach(console.log(driver.revenue))
-//   }
-//
-//   const reduceRevenue = function(revenue) {
-//     console.log(drivers[revenue])
-//     return drivers.revenue
-//   }
-//
-//   return driversRevenue.reduce(reduceRevenue)
-//
-// }
+function totalRevenue(drivers) {
+  let driversRevenue = [];
+
+  drivers.forEach((driver)=> {
+    driversRevenue.push(driver)
+  })
+
+  function test(drivers){
+    drivers.forEach(console.log(driver.revenue))
+  }
+
+  const reduceRevenue = function(revenue) {
+    console.log(drivers[revenue])
+    return drivers.revenue
+  }
+
+  return driversRevenue.reduce(reduceRevenue)
+
+}
 
 // const array1 = [1, 2, 3, 4];
 // const reducer = (accumulator, currentValue) => accumulator + currentValue;
