@@ -56,3 +56,17 @@ function totalRevenue(drivers) {
 }
 
 //calculates the average revenue across all drivers
+function averageRevenue(drivers) {
+  let driversAvgRevenue = [];
+
+  drivers.forEach((driver)=> {
+    driversAvgRevenue.push(driver)
+  })
+
+  let reduceRevenue = driversAvgRevenue.reduce(function(sum, driver) {
+    return sum + driver.revenue;
+  }, 0);
+
+  return (reduceRevenue/driversAvgRevenue.length)
+
+}
